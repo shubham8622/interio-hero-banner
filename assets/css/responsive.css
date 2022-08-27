@@ -1,0 +1,113 @@
+@media only screen and (max-width:1200px){
+    .hero-heading h1{
+        font-size:2.6rem;
+    }
+    .hero-heading a{
+        font-size: 1.5rem;
+    }
+    .puzzle {
+        width: 17rem;
+    }    
+    .idea {
+        width: 24rem;
+    }
+}
+
+@media only screen and (max-width:1024px){
+    .hero-heading h1{
+        font-size:2.5rem;
+    }
+    .puzzle {
+        width: 14rem;
+    }    
+    .idea {
+        width: 21rem;
+    }
+}
+
+@media only screen and (max-width:950px){
+    section{
+        padding-top: 9rem;
+    }
+    .hero-heading{
+        text-align: center;
+    }
+    .hero-heading h1{
+        font-size:3rem;
+    }
+    .hero-heading a{
+        font-size: 1.1rem;
+    }
+    nav{
+        display: none;
+    }
+    .header-navigation img.logo {
+        max-width: 6rem;
+    }
+    .bars{
+        display: block;
+        color: #ffffff;
+        font-size: 1.3rem;
+    }
+    .hero-content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .images{
+        flex-direction: row;
+    }
+    .idea{
+        align-self: center;
+        bottom: 3rem;
+    }
+    .idea-content,
+    .puzzle-content{
+        padding: 1rem;
+    }
+}
+
+@media only screen and (max-width:768px){
+    section{
+        padding-top: 10rem;
+    }
+    .hero-content{
+        height:unset;
+    }
+    .images {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+    .hero-heading h1{
+        font-size: 2.5rem;
+    }
+    .puzzle{
+        margin-inline: auto;
+    }
+    .puzzle img,
+    .idea img{
+        display: none;
+    }
+    .idea{
+        position: static;
+    }
+    .puzzle-content,
+    .idea-content{
+        align-self: center;
+    }
+}
+
+@media only screen and (max-width:475px){
+    section{
+        padding-top: 8rem;
+    }
+    .hero-heading h1 {
+        font-size: 2.3rem;
+    }
+    .images{
+        width: 18rem;
+    }
+    .idea{
+        width: inherit;
+    }
+}
